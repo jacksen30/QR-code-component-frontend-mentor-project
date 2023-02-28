@@ -44,4 +44,11 @@ body {
     color: hsl(220, 15%, 55%);
 }
 
+@media screen and (max-width: 500px) {
+    
+    .card {
+        margin-top: 80px;
+    }
+    
+}
 
