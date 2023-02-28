@@ -11,7 +11,9 @@ This is my personal solution to the [QR code component challenge on Frontend Men
 
 ### Screenshot
 ![Desktop Screenshot](./images/Desktop-Qr.JPG)
+##### Desktop View
 ![Mobile Screenshot](./images/Mobile-Qr.JPG)
+##### Mobile View
 
 
 ### Links
