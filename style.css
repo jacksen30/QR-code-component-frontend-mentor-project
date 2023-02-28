@@ -12,8 +12,8 @@ body {
 .card {
     /* border: red 1px solid; */
     background-color: hsl(0, 0%, 100%);
-    width: 300px;
-    height: 460px;
+    width: 330px;
+    height: 500px;
     margin: auto;
     margin-top: 150px;
     border-radius: 10px;
@@ -27,8 +27,8 @@ body {
 
 .text-container {
     text-align: center;
-    margin-left: 27px;
-    margin-right: 27px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .text-container h3 {
@@ -43,3 +43,5 @@ body {
     font-size: 15px;
     color: hsl(220, 15%, 55%);
 }
+
+
