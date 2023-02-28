@@ -5,17 +5,20 @@
 }
 
 body {
+    /*The below will ensure that the card is centered regardless of screen size */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
 }
 
 .card {
-    /* border: red 1px solid; */
     background-color: hsl(0, 0%, 100%);
     width: 330px;
     height: 500px;
-    margin: auto;
-    margin-top: 150px;
     border-radius: 10px;
 }
 
@@ -27,28 +30,20 @@ body {
 
 .text-container {
     text-align: center;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.text-container h3 {
+.text-container h1 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 13px;
 }
 
 .text-container p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     color: hsl(220, 15%, 55%);
-}
-
-@media screen and (max-width: 500px) {
-    
-    .card {
-        margin-top: 80px;
-    }
-    
 }
 
